@@ -113,3 +113,12 @@ a.list-group-item span.createdAt {
 	color: #969FA8;
 	z-index: -1;
 }
+
+button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: 0;
+    background: transparent;
+}

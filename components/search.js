@@ -20,7 +20,7 @@ var Search = React.createClass({
 		this.props.onSearch(this.state.value);
 
 		// Unfocus the text input field
-		//this.getDOMNode().querySelector('input').blur();
+		this.getDOMNode().querySelector('input').blur();
 	},
 
 	render() {
@@ -32,9 +32,8 @@ var Search = React.createClass({
 						<div className="input-group">
 							<input type="text" className="form-control" id="address" placeholder="Find a location..." 
 							value={this.state.value} onChange={this.handleChange} />
-							<span className="input-group-btn">
-								<span className="glyphicon glyphicon-search" aria-hidden="true"></span>
-							</span>
+							<button><span className="glyphicon glyphicon-plus-sign"></span></button>
+
 						</div>
 					</div>
 				</div>
