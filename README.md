@@ -4,4 +4,8 @@
 #### source:  http://tutorialzine.com/2015/04/first-webapp-react/
 #### An app that saves your location, built with reactjs
 
-#### 2 known bugs. Map doesnt load immidiately after opening app. You have to refresh one time. The glyphicon search button isnt working but you hit return in the search bar. 
+##### To run:
+##### 1. clone the repository 
+##### 2. execute npm install 
+##### 3. execute npm build 
+##### 4. open index.html in the browser 
