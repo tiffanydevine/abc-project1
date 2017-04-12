@@ -3,7 +3,6 @@ var React = require('react');
 var CurrentLocation = React.createClass({ 
 	
 	toggleFavorite(){
-		console.log('yes')
 		this.props.onFavoriteToggle(this.props.address);
 	}, 
 

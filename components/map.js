@@ -7,7 +7,6 @@ var Map = React.createClass({
 
 	componentDidMount(){
 
-		console.log('it mounted')
 
 		// Only componentDidMount is called when the component is first added to
 		// the page. This is why we are calling the following method manually. 

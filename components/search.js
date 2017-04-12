@@ -8,11 +8,9 @@ var Search = React.createClass({
 
 	handleChange(event) {
 		this.setState({value: event.target.value});
-		console.log(this.state)
 	},
 
 	handleSubmit(event){
-		console.log(this.state)
 		event.preventDefault();
 		
 		// When the form is submitted, call the onSearch callback that is passed to the component

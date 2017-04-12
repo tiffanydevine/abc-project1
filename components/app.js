@@ -76,10 +76,8 @@ var App = React.createClass({
 	}, 
 
 	searchForAddress(address){
-		//console.log('here'); 
 		var self = this; 
 		GMaps.geocode({
-			//console.log('even better'); 
 			address: address, 
 			callback: function(results, status){
 				if (status !== 'OK') return; 

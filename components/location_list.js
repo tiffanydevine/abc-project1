@@ -6,11 +6,9 @@ var LocationList = React.createClass({
 
 		 var self = this; 
 		 var locations = this.props.locations.map(function(l){
-		 	console.log(l)
-		 	var key = Date.now()
 		 	var active = self.props.activeLocations == l.address; 
 
-		 	return <LocationItem address={l.address} timestamp={l.timestamp} key={key}
+		 	return <LocationItem address={l.address} timestamp={l.timestamp} key={l.timestamp}
 					active={active} onClick={self.props.onClick} />
 
 		 }); 
